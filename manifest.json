@@ -1,0 +1,24 @@
+{
+    "name": "Echolon",
+    "version": "1.0",
+    "manifest_version": 2,
+
+
+    "description": "The ultimate solution to your tab hoarding problem!",
+    "icons": {
+        "128": "echolon.png"
+    },
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "chrome_url_overrides" : {
+        "newtab" : "newtab.html"
+    },
+        
+    "browser_action": {
+        "default_title": "The ultimate solution to your tab hoarding problem",
+        "default_popup": "popup.html"
+    }
+  }
